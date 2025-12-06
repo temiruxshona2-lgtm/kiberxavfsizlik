@@ -32,7 +32,7 @@ classDiagram
 
 ```
 
-```
+```mermaid
 classDiagram
     class RSAKeyGenerator {
         +generate_rsa_keypair()
@@ -65,7 +65,7 @@ classDiagram
     PublicKey --> FileWriter : "public.pem ga yozadi"
  ```
 
-```
+```mermaid
 classDiagram
     class Message {
         +bytes data
